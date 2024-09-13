@@ -1,0 +1,258 @@
+body {
+  overflow-x: hidden;
+}
+
+nav {
+  margin: 0 auto;
+  position: absolute;
+  top: 0;
+}
+
+#hero-section {
+  background-image: url(./images/hero-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+.hero-description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.overlay {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+#nav-items .unselected {
+  opacity: 0.7;
+}
+
+.mid-txt {
+  font-family: "Old Standard TT", serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.old-standard {
+  font-family: "Old Standard TT", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.brown-btn {
+  background-color: #c5a880;
+  padding: 0.8rem 1.5rem;
+}
+
+.transparent-btn {
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid white;
+  padding: 0.6rem 1.5rem;
+}
+
+.nunito {
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  /* font-weight: <1000>;
+  font-style: normal; */
+}
+
+#query {
+  /* position: relative;
+  z-index: 3;
+  margin-top: -80px; */
+  padding-top: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: #222222; */
+  /* width: 100%; */
+  margin: 0 auto;
+  color: #ffffff;
+  height: 9.7rem;
+  background-color: #f8f8f8;
+}
+
+#query1 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #222222;
+  width: 66%;
+  height: 9.7rem;
+}
+
+#query2 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #c5a880;
+  width: 14%;
+  height: 9.7rem;
+}
+
+#query1 h4 {
+  font-weight: 500;
+  font-size: 0.75rem;
+  letter-spacing: 1px;
+  padding-bottom: 10px;
+}
+
+.txt-area {
+  background: #222222;
+}
+
+::placeholder {
+  color: #656565;
+  appearance: none;
+  font-size: 1rem;
+  opacity: 0.1;
+}
+
+.icon {
+  color: #656565;
+}
+
+.chk-avail {
+  text-align: center;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  font-weight: 600;
+  line-height: 22.4px;
+}
+
+select {
+  background: #222222;
+  border: none;
+  color: #656565;
+  appearance: none;
+}
+
+option {
+  color: #656565;
+}
+
+#about-us {
+  background-color: #f8f8f8;
+}
+
+#about-us-container {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  column-gap: 10rem;
+}
+
+#card1 {
+  background-color: white;
+  margin-bottom: 24px;
+  box-shadow: rgba(0, 0, 0, 0.06) 0px 5px 25px -2px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#card1 p {
+  font-size: 1rem;
+  line-spacing: 28.8px;
+  color: #999999;
+  margin: 16px 24px;
+  text-align: center;
+}
+
+#card1 h3 {
+  font-size: 24px;
+  line-height: 36px;
+  color: #000000;
+}
+
+#card2 {
+  background-image: url(./images/special-offers.png);
+  background-size: cover;
+}
+
+#card3 {
+  background-image: url(./images/cozy-room.png);
+  background-size: cover;
+  margin-bottom: 24px;
+}
+
+#card4 {
+  background-color: white;
+  margin-bottom: 24px;
+  box-shadow: rgba(0, 0, 0, 0.06) 0px 5px 25px -2px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#card4 p {
+  font-size: 1rem;
+  line-spacing: 28.8px;
+  color: #999999;
+  margin: 16px 24px;
+  text-align: center;
+}
+
+#card4 h3 {
+  font-size: 24px;
+  line-height: 36px;
+  color: #000000;
+}
+
+#about-us-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#about-us-description h4 {
+  color: #c5a880;
+  line-height: 23.4px;
+  margin-bottom: 5px;
+}
+
+#about-us-description p {
+  line-height: 28.8px;
+  color: #999999;
+  margin-bottom: 48px;
+}
+
+#about-us-description button {
+  line-height: 18px;
+  background-color: #c5a880;
+  margin-bottom: 16px;
+  font-size: 0.75rem;
+  height: 52px;
+  width: 215px;
+  color: white;
+}
+
+/* .card-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.732);
+  color: white;
+  opacity: 0;
+}
+
+.card-overlay:hover {
+  opacity: 1;
+} */
+
+
