@@ -75,6 +75,7 @@ nav {
   background-color: #f8f8f8;
   padding: 0;
   position: relative;
+  width: 100vw;
 }
 
 #query-container {
@@ -156,6 +157,7 @@ option {
 #about-us {
   background-color: #f8f8f8;
   padding: 208px 0 128px;
+  width: 100vw;
 }
 
 #about-us-container {
@@ -265,9 +267,12 @@ option {
   color: white;
 }
 
+/* Services section -------------------------------------------- */
+
 #services {
   padding: 128px 0;
   background-color: #f8f8f8;
+  width: 100vw;
 }
 
 #services-cointainer {
@@ -317,4 +322,40 @@ font-weight: 600;
 .icon-card img {
  padding: 0;
 
+}
+
+
+/* Black bar ---------------------------------------- */
+#black-bar {
+  width: 100vw;
+
+}
+#black-bar-container {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+#black-bar .header {
+  font-size: 2.5rem;
+  line-height: 60px;
+  width: 70%;
+}
+
+#black-bar button {
+  background-color: #c5a880;
+  padding: 24px 48px;
+  color: white;
+  font-weight: 700;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+  line-height: 28.8px;
+  
+}
+
+.btn-container {
+  
 }
