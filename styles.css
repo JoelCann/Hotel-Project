@@ -8,6 +8,12 @@ nav {
   top: 0;
 }
 
+#nav-items a {
+  font-weight: 600;
+  font-size: 0.8rem;
+  letter-spacing: 2px;
+}
+
 #hero-section {
   background-image: url(./images/hero-bg.png);
   background-size: cover;
@@ -62,6 +68,8 @@ nav {
   /* font-weight: <1000>;
   font-style: normal; */
 }
+
+/* Query Section ------------------------------------------------ */
 
 #query {
   background-color: #f8f8f8;
@@ -143,13 +151,11 @@ option {
   color: #656565;
 }
 
-/* About Us Section
--
- */
+/* About Us Section  ------------------------------------------ */
 
 #about-us {
   background-color: #f8f8f8;
-  padding: 208px 0;
+  padding: 208px 0 128px;
 }
 
 #about-us-container {
