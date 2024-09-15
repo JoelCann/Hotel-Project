@@ -401,7 +401,7 @@ option {
 }
 
 .card-desc {
-  padding: 48px;
+  padding: 48px 48px;
   width: 415px;
   height: 282px;
   text-align: center;
@@ -425,10 +425,28 @@ option {
   margin-bottom: 16px;
 }
 
-.card-img {
+.card-img-1 {
   width: 415px;
   height: 282px;
   background-image: url(./images/room1.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card-img-2 {
+  width: 415px;
+  height: 282px;
+  background-image: url(./images/room2.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card-img-3 {
+  width: 415px;
+  height: 282px;
+  background-image: url(./images/room3.png);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -439,6 +457,7 @@ option {
   justify-content: center;
   align-items: center;
   column-gap: 16px;
+  margin-bottom: 31px;
 }
 
 .linkz h5 {
@@ -450,9 +469,25 @@ option {
 
 .linkz button {
   background-color: white;
-  font-size: 1rem;
-  font-weight: 600;
+  font-size: 0.8rem;
+  font-weight: 700;
   line-height: 28.8px;
   border: 1px solid rgba(0, 0, 0, 0.076);
   padding: 1px 6px;
+}
+
+/* Footer section */
+
+#footer {
+  background-color: #1a1a1a;
+}
+
+#footer-container {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+}
+
+.section1 {
+  width: 306px;
 }
