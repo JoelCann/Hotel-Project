@@ -386,3 +386,73 @@ option {
   display: flex;
   align-items: center;
 }
+
+/* Featured Rooms */
+
+#featured-rooms {
+  width: 100vw;
+  padding: 128px 0;
+  background-color: #f8f8f8;
+}
+
+#f-rooms {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.card-desc {
+  padding: 48px;
+  width: 415px;
+  height: 282px;
+  text-align: center;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.06) 0px 5px 25px -2px;
+}
+
+.room-cards {
+  display: flex;
+}
+
+.room-card {
+  padding: 0 12px;
+}
+
+.room-card p {
+  font-size: 1rem;
+  line-height: 28.8px;
+  color: #999999;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.card-img {
+  width: 415px;
+  height: 282px;
+  background-image: url(./images/room1.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.linkz {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 16px;
+}
+
+.linkz h5 {
+  color: #c5a880;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 25.2px;
+}
+
+.linkz button {
+  background-color: white;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 28.8px;
+  border: 1px solid rgba(0, 0, 0, 0.076);
+  padding: 1px 6px;
+}
