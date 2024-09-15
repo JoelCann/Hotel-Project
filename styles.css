@@ -90,7 +90,7 @@ nav {
   position: absolute;
   top: -77.5px;
   left: 50%;
-  margin-left: -657px; 
+  margin-left: -657px;
 }
 
 #query1 {
@@ -180,7 +180,7 @@ option {
 
 #card1 p {
   font-size: 1rem;
-  line-spacing: 28.8px;
+  line-height: 28.8px;
   color: #999999;
   margin: 16px 24px;
   text-align: center;
@@ -215,7 +215,7 @@ option {
 
 #card4 p {
   font-size: 1rem;
-  line-spacing: 28.8px;
+  line-height: 28.8px;
   color: #999999;
   margin: 16px 24px;
   text-align: center;
@@ -233,7 +233,6 @@ option {
   justify-content: center;
 }
 
-
 .sub-header {
   color: #c5a880;
   line-height: 23.4px;
@@ -248,7 +247,7 @@ option {
   font-family: "Old Standard TT", serif;
   font-weight: 500;
   font-style: normal;
-  line height: 89.6px;
+  line-height: 89.6px;
 }
 
 #about-us-description p {
@@ -282,7 +281,6 @@ option {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  
 }
 
 .headings {
@@ -310,39 +308,65 @@ option {
   align-items: center;
   row-gap: 20px;
   margin: 0 12px;
-
 }
 
 .icon-card h2 {
   font-size: 20px;
   line-height: 28.8px;
-font-weight: 600;
+  font-weight: 600;
 }
 
 .icon-card img {
- padding: 0;
-
+  padding: 0;
 }
-
 
 /* Black bar ---------------------------------------- */
 #black-bar {
   width: 100vw;
-
+  height: 224px;
+  padding: 48px 0;
+  background-image: url(./images/hero-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: relative;
 }
+
+.bb-overlay {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.747);
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
+
 #black-bar-container {
   width: 80%;
   margin: 0 auto;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 0;
 }
 
+.desc {
+  width: 562px;
+  padding: 0 12px;
+}
 
 #black-bar .header {
   font-size: 2.5rem;
   line-height: 60px;
-  width: 70%;
+  color: white;
+}
+
+.sub-header {
+  width: 538px;
 }
 
 #black-bar button {
@@ -353,9 +377,12 @@ font-weight: 600;
   font-size: 0.8rem;
   letter-spacing: 1px;
   line-height: 28.8px;
-  
 }
 
-.btn-container {
-  
+.btn {
+  padding: 0 12px;
+  height: 148px;
+  width: 293px;
+  display: flex;
+  align-items: center;
 }
