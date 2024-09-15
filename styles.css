@@ -488,6 +488,10 @@ option {
   display: flex;
 }
 
+#footer-container p {
+  color: rgba(255, 255, 255, 0.701);
+}
+
 .section1 {
-  width: 306px;
+  width: 106px;
 }
